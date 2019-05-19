@@ -18,10 +18,12 @@
 session_start();
 $_SESSION["computer"] = $_POST["computer"];
 
-    if($_SESSION["computer"] == '花子ちゃん') {
+    if($_SESSION["computer"] == 'ねこ') {
+        echo "<img src=\"img/pet_cat_sit.png\" class=com-img>";
+    } else if($_SESSION["computer"] == 'カニ'){
+        echo "<img src=\"img/crab_c.png\" class=com-img>";
+    } else{
         echo "<img src=\"img/woman.png\" class=com-img>";
-    } else {
-        echo "<img src=\"img/man.png\" class=com-img>";
     }
 ?>
 </p>

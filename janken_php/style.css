@@ -11,8 +11,8 @@
 }
 
 img.top-img{
-    height: 450px;
-    width: auto;
+    width: 150px;
+    height: auto;
     opacity: 0.6;
 }   
 
@@ -122,11 +122,13 @@ img.p-img{
 }
 
 img.result-img{
-    height:300px;
+    height:150px;
+    margin-right:10px;
 }
 
 img.comr-img{
-    height:200px;
+    height:150px;
+    margin-left:10px;
 }
 
 .result h1{
